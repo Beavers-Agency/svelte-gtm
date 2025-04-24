@@ -40,7 +40,7 @@ Use the GTMDataLayer component in your layout (e.g., +layout.svelte):
 ## 📊 Events automatically pushed
 
 Each page view triggers:
-```json
+```js
 {
   event: 'beavers_page_view',
   page_path: '/your/current/path',
