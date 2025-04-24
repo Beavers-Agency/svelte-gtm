@@ -1,20 +1,38 @@
 {
   "name": "svelte-gtm",
-  "version": "1.0.0",
-  "description": "Svelte components to easily integrate Google Tag Manager",
-  "svelte": "./src/GTM.svelte",
-  "exports": {
-    "./GTM.svelte": "./src/GTM.svelte",
-    "./GTMDataLayer.svelte": "./src/GTMDataLayer.svelte"
-  },
-  "keywords": ["svelte", "gtm", "google tag manager", "analytics"],
+  "version": "1.0.1",
+  "description": "Lightweight Svelte components for Google Tag Manager (GTM)",
+  "keywords": [
+    "svelte",
+    "gtm",
+    "google tag manager",
+    "analytics",
+    "tracking",
+    "spa"
+  ],
   "author": {
     "name": "Beavers",
     "email": "les-castors@beavers-agency.fr",
     "url": "https://beavers-agency.fr"
   },
   "license": "MIT",
+  "svelte": "./src/GTM.svelte",
+  "exports": {
+    "./GTM.svelte": {
+      "svelte": "./src/GTM.svelte"
+    },
+    "./GTMDataLayer.svelte": {
+      "svelte": "./src/GTMDataLayer.svelte"
+    },
+    ".": {
+      "svelte": "./src/GTM.svelte"
+    }
+  },
   "peerDependencies": {
     "svelte": "^5.0.0"
-  }
+  },
+  "files": [
+    "src"
+  ],
+  "type": "module"
 }
