@@ -4,7 +4,7 @@
 	let lastPageViewPath = '';
 
 	$effect(() => {
-		const currentPath = page.url.pathname + page.url.search;
+		const currentPath = $page.url.pathname + $page.url.search;
 
 		if (!navigating.to && currentPath !== lastPageViewPath) {
 			lastPageViewPath = currentPath;
