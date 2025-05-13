@@ -24,6 +24,9 @@
     "./GTMDataLayer.svelte": {
       "svelte": "./src/GTMDataLayer.svelte"
     },
+    "./GTMDataLayerStores.svelte": {
+      "svelte": "./src/GTMDataLayerStores.svelte"
+    },
     ".": {
       "svelte": "./src/GTM.svelte"
     }
