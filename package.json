@@ -1,6 +1,6 @@
 {
   "name": "svelte-gtm",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lightweight Svelte components for Google Tag Manager (GTM)",
   "keywords": [
     "svelte",
