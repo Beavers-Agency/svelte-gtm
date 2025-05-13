@@ -26,7 +26,7 @@ Use the GTMDataLayer component in your layout (e.g., +layout.svelte) and replace
 ✅ This will inject the gtm.js script into <head> and the <noscript> iframe fallback into <body>.
 
 ### ② Track page views in SPA
-Use the GTMDataLayer component in your layout (e.g., +layout.svelte):
+Use the GTMDataLayer or GTMDataLayerStores component in your layout (e.g., +layout.svelte):
 
 ```svelte
 <script>
